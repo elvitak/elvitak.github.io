@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add new recipe</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="ulNav">
+          <li class="navLi">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="navLi">
+            <a href="savedRecipes.html">Your saved recipes</a>
+          </li>
+          <li class="navLi">
+            <a href="addRecipe.html"></a><strong>Add new recipe</strong>
+          </li>
+        </ul>
+      </nav>
+      <button type="button" id="logInBtn" style="float: right">Log out</button>
+      <div style="clear: both"></div>
+    </header>
+    <form>
+      <label for="title">Recipe title:</label><br />
+      <input type="text" id="title" /><br /><br />
+      <label for="ingredients">Ingredients:</label><br />
+      <input type="text" id="ingredients" /><br /><br />
+      <label for="instructions">Instructions:</label><br />
+      <input type="text" id="instructions" /><br /><br />
+      <label for="notes">Notes:</label><br />
+      <input type="text" id="notes" /><br /><br />
+      <input type="submit" value="Save" />
+    </form>
+  </body>
+</html>
